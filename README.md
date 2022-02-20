@@ -19,12 +19,47 @@ To write a program to perform linear search and binary search using python progr
 ## Program:
 i)	#Use a linear search method to match the item in a list.
 ```
+def linearsearch(array, n, k):
 
+    for i in range(0, n):
+        if (array [i] == k):
+            return i
+    return -1
+
+array = eval(input())
+k =  eval(input())
+n = len(array)
+array.sort()
+result = linearsearch(array, n, k)
+if(result == -1):
+    print(array)
+    print("Element not found")
+else:
+    print(array)
+    print("Element found at index: ", result)
 
 
 ```
 ii)	# Find the element in a list using Binary Search(Iterative Method).
 ```
+def linearsearch(array, n, k):
+
+    for i in range(0, n):
+        if (array [i] == k):
+            return i
+    return -1
+
+array = eval(input())
+k =  eval(input())
+n = len(array)
+array.sort()
+result = linearsearch(array, n, k)
+if(result == -1):
+    print(array)
+    print("Element not found")
+else:
+    print(array)
+    print("Element found at index: ", result)
 
 
 
@@ -33,13 +68,33 @@ ii)	# Find the element in a list using Binary Search(Iterative Method).
 ```
 iii)	# Find the element in a list using Binary Search (recursive Method).
 ```
+def linearsearch(array, n, k):
 
+    for i in range(0, n):
+        if (array [i] == k):
+            return i
+    return -1
+
+array = eval(input())
+k =  eval(input())
+n = len(array)
+array.sort()
+result = linearsearch(array, n, k)
+if(result == -1):
+    print(array)
+    print("Element not found")
+else:
+    print(array)
+    print("Element found at index: ", result)
 
 
 
 
 ```
 ## Sample Input and Output
+![image](https://user-images.githubusercontent.com/93427238/154844421-9cfa4eae-8513-455c-a247-7aa128b1d22f.png)
+![image](https://user-images.githubusercontent.com/93427238/154844435-e29896af-f26b-4b93-886b-68bbe6cef4b4.png)
+![image](https://user-images.githubusercontent.com/93427238/154844445-f43257ad-ddfb-48e6-ab05-b04ad8cc36e4.png)
 
 
 
